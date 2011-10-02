@@ -1,0 +1,18 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:h="http://java.sun.com/jsf/html"
+  xmlns:ui="http://java.sun.com/jsf/facelets"
+  xmlns:c="http://java.sun.com/jsp/jstl/core">
+	
+					Host property: #{host}<br />
+				Snap property: #{snap}<br />
+				Snaps property: #{snaps}<br />
+				<c:forEach var="snap" items="#{snaps}">
+<!-- 					<h:outputText -->
+<!-- 						value="#{snap.contextPath}#{snap.properties['link.path']} #{snap.properties['link.text']}" /> -->
+					<h:commandButton action="#{prefabSoftController.get}" value="#{snap.properties['link.text']}" />
+					<h:outputLink value="#{snap.contextPath}#{snap.properties['link.path']}" >
+						#{snap.properties['link.text']}
+					</h:outputLink>
+				</c:forEach>
+    
+</ui:composition>

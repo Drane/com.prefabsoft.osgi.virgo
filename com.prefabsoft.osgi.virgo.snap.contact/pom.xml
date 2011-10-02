@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.prefabsoft</groupId>
+  <artifactId>virgo.contact</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+    <properties>
+  	<version>3.0.1.RELEASE</version>
+  	<org.apache.taglibs.standard>1.1.2</org.apache.taglibs.standard>
+  	<javax.servlet.jsp.jstl>1.2.0</javax.servlet.jsp.jstl>
+  	<javax.servlet>3.5</javax.servlet>
+  	<org.springframework>3</org.springframework>
+  	<org.eclipse.virgo.web>3</org.eclipse.virgo.web>
+  </properties>
+</project>

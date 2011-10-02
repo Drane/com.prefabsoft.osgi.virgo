@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-Version: 0.0.1
+Bundle-Name: osgi.virgo.snap.home
+Bundle-ManifestVersion: 2
+Bundle-Description: PREFABSOFT
+Bundle-SymbolicName: com.prefabsoft.osgi.virgo.snap.home
+

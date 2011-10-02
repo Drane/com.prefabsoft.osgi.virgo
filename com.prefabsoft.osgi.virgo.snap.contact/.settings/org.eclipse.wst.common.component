@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="com.prefabsoft.osgi.virgo.snap.contact">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="java-output-path" value="/com.prefabsoft.osgi.virgo.snap.contact/bin"/>
+        <property name="context-root" value="com.prefabsoft.osgi.virgo.snap.contact"/>
+    </wb-module>
+</project-modules>
